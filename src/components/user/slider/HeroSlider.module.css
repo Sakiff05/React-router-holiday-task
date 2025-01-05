@@ -1,0 +1,22 @@
+.sliderImage {
+  width: 100vw;
+}
+
+.sliderBack {
+  background: url("./src/assets/media/slider-2.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sliderBack2 {
+  background: url("./src/assets/media/slider-1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sliderContent {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}

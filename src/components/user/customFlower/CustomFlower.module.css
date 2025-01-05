@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+.customBg {
+  background: url("./src/assets/media/custom-bg.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding-block: 6rem;
+}
+
+.customBg p {
+  font-family: "Dancing Script", serif;
+}

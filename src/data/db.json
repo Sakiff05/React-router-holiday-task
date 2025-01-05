@@ -1,0 +1,104 @@
+{
+  "flowers": [
+    {
+      "id": "a1b2c3d4",
+      "title": "Rose Bouquet",
+      "price": 29.99,
+      "img": "https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg",
+      "type": "Bouquet",
+      "description": "A beautiful bouquet of fresh roses, perfect for any occasion.",
+      "outOfStock": false,
+      "new": true
+    },
+    {
+      "id": "e5f6g7h8",
+      "title": "Tulip Arrangement",
+      "price": 19.99,
+      "img": "https://images.pexels.com/photos/931166/pexels-photo-931166.jpeg",
+      "type": "Arrangement",
+      "description": "A stunning arrangement of vibrant tulips in full bloom.",
+      "outOfStock": true,
+      "new": false
+    },
+    {
+      "id": "i9j0k1l2",
+      "title": "Orchid Pot",
+      "price": 34.99,
+      "img": "https://images.pexels.com/photos/256318/pexels-photo-256318.jpeg",
+      "type": "Potted Plant",
+      "description": "Elegant and exotic orchids in a decorative pot.",
+      "outOfStock": false,
+      "new": true
+    },
+    {
+      "id": "m3n4o5p6",
+      "title": "Sunflower Bunch",
+      "price": 24.99,
+      "img": "https://i.pinimg.com/736x/2e/cf/06/2ecf067a2069128f44d75d25a32e219e.jpg",
+      "type": "Bunch",
+      "description": "Bright and cheerful sunflowers to lighten up your day.",
+      "outOfStock": true,
+      "new": false
+    },
+    {
+      "id": "q7r8s9t0",
+      "title": "Lily Bouquet",
+      "price": 27.99,
+      "img": "https://i.pinimg.com/736x/e9/a7/40/e9a7405883363b03fb9478cf5ed29971.jpg",
+      "type": "Bouquet",
+      "description": "A classic bouquet of white lilies for a touch of elegance.",
+      "outOfStock": false,
+      "new": false
+    },
+    {
+      "id": "u1v2w3x4",
+      "title": "Daisy Basket",
+      "price": 22.99,
+      "img": "https://i.pinimg.com/1200x/cd/05/da/cd05da62e7b8d96b613f5f7803b5acfe.jpg",
+      "type": "Basket",
+      "description": "A charming basket of fresh daisies to brighten any room.",
+      "outOfStock": true,
+      "new": true
+    },
+    {
+      "id": "y5z6a7b8",
+      "title": "Peony Blossom",
+      "price": 39.99,
+      "img": "https://plus.unsplash.com/premium_photo-1676070096487-32dd955e09e0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnJpZ2h0JTIwZmxvd2Vyc3xlbnwwfHwwfHx8MA%3D%3D",
+      "type": "Blossom",
+      "description": "Luxurious and fragrant peonies for special moments.",
+      "outOfStock": false,
+      "new": true
+    },
+    {
+      "id": "c9d0e1f2",
+      "title": "Carnation Spray",
+      "price": 18.99,
+      "img": "https://img.freepik.com/free-photo/beautiful-arrangement-flowers-birthday-girl_23-2149077388.jpg?semt=ais_hybrid",
+      "type": "Spray",
+      "description": "A colorful spray of fresh carnations for any celebration.",
+      "outOfStock": true,
+      "new": false
+    },
+    {
+      "id": "g3h4i5j6",
+      "title": "Hydrangea Vase",
+      "price": 44.99,
+      "img": "https://images.pexels.com/photos/931166/pexels-photo-931166.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "type": "Vase",
+      "description": "Soft and full hydrangeas beautifully arranged in a vase.",
+      "outOfStock": false,
+      "new": false
+    },
+    {
+      "id": "k7l8m9n0",
+      "title": "Chrysanthemum Pot",
+      "price": 25.99,
+      "img": "https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "type": "Potted Plant",
+      "description": "Vivid and long-lasting chrysanthemums in a ceramic pot.",
+      "outOfStock": true,
+      "new": true
+    }
+  ]
+}
