@@ -5,6 +5,7 @@ import { IconButton } from "@mui/material";
 import { useContext, useEffect } from "react";
 import { favoriteContext } from "../../../context/FavoriteProvider";
 import { basketContext } from "../../../context/BasketProvider";
+import Swal from "sweetalert2";
 
 function FlowerDetails({ flower }) {
   const { handleAddFavorite, favorite } = useContext(favoriteContext);
@@ -17,7 +18,15 @@ function FlowerDetails({ flower }) {
 
   function handleBasket(e) {
     e.stopPropagation();
-    handleAddBasket(flower.id);
+    if (flower.outOfStock) {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Unfortunately we are out of stock",
+      });
+    } else {
+      handleAddBasket(flower.id);
+    }
   }
 
   useEffect(() => {
