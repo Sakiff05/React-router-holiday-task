@@ -4,6 +4,7 @@ import AdminBreadCrumb from "../../../components/admin/adminBreadCrumb/AdminBrea
 import AdminDetailCard from "../../../components/admin/adminDetailCard/AdminDetailCard";
 import axios from "axios";
 import Loader from "../../../components/loader/Loader";
+import { Helmet } from "react-helmet-async";
 
 function AdminDetails() {
   const { id } = useParams("id");
@@ -30,6 +31,10 @@ function AdminDetails() {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Admin | {`${flower.title}`}</title>
+        <meta name="description" content="Details" />
+      </Helmet>
       <AdminBreadCrumb page="details">{flower.title}</AdminBreadCrumb>
       {isLoading ? <Loader /> : <AdminDetailCard flower={flower} />}
     </div>

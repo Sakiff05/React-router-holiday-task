@@ -55,10 +55,12 @@ function UserNav() {
               textDecoration: "none",
             }}
           >
-            <img
-              src="https://preview.colorlib.com/theme/florist/img/logo.png"
-              alt=""
-            />
+            <Link to="/">
+              <img
+                src="https://preview.colorlib.com/theme/florist/img/logo.png"
+                alt=""
+              />
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -116,10 +118,12 @@ function UserNav() {
               textDecoration: "none",
             }}
           >
-            <img
-              src="https://preview.colorlib.com/theme/florist/img/logo.png"
-              alt=""
-            />
+            <Link to="/">
+              <img
+                src="https://preview.colorlib.com/theme/florist/img/logo.png"
+                alt=""
+              />
+            </Link>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (

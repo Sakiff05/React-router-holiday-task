@@ -4,6 +4,7 @@ import axios from "axios";
 import PageBreadCrumb from "../../../components/user/aboutHeader/PageBreadCrumb";
 import FlowerDetails from "../../../components/user/flowerDetails/FlowerDetails";
 import Loader from "../../../components/loader/Loader";
+import { Helmet } from "react-helmet-async";
 
 function Details() {
   const { id } = useParams("id");
@@ -24,8 +25,13 @@ function Details() {
   useEffect(() => {
     getDataById();
   }, []);
+
   return (
     <div>
+      <Helmet>
+        <title>Florist | {`${flower.title}`}</title>
+        <meta name="description" content="Details" />
+      </Helmet>
       <PageBreadCrumb page="details">{flower.title}</PageBreadCrumb>
       {isLoading ? <Loader /> : <FlowerDetails flower={flower} />}
     </div>

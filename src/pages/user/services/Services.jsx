@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import PageBreadCrumb from "../../../components/user/aboutHeader/PageBreadCrumb";
 import CustomOrders from "../../../components/user/customOrders/CustomOrders";
+import { Helmet } from "react-helmet-async";
 
 function Services() {
   useEffect(() => {
@@ -8,6 +9,10 @@ function Services() {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Florist | Services</title>
+        <meta name="description" content="Services" />
+      </Helmet>
       <PageBreadCrumb page="services">Our Services</PageBreadCrumb>
       <CustomOrders />
     </div>

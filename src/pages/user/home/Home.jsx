@@ -6,6 +6,7 @@ import Quotes from "../../../components/user/quotes/Quotes";
 import Shop from "../../../components/user/shop/Shop";
 import HeroSlider from "../../../components/user/slider/HeroSlider";
 import Tricks from "../../../components/user/tricks/Tricks";
+import { Helmet } from "react-helmet-async";
 
 function Home() {
   useEffect(() => {
@@ -13,6 +14,10 @@ function Home() {
   }, []);
   return (
     <>
+      <Helmet>
+        <title>Florist | Home</title>
+        <meta name="description" content="Home" />
+      </Helmet>
       <HeroSlider />
       <Features />
       <AboutUs />

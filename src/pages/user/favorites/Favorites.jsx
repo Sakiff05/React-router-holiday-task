@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import PageBreadCrumb from "../../../components/user/aboutHeader/PageBreadCrumb";
 import FavoriteCards from "../../../components/user/favoriteCards/FavoriteCards";
+import { Helmet } from "react-helmet-async";
 
 function Favorites() {
   useEffect(() => {
@@ -9,6 +10,10 @@ function Favorites() {
 
   return (
     <>
+      <Helmet>
+        <title>Florist | Favorites </title>
+        <meta name="description" content="Favorites" />
+      </Helmet>
       <PageBreadCrumb page="favorites">Favorites</PageBreadCrumb>
       <FavoriteCards />
     </>

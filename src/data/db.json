@@ -3,7 +3,7 @@
     {
       "id": "a1b2c3d4",
       "title": "Rose Bouquet",
-      "price": 29.99,
+      "price": "29.99",
       "img": "https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg",
       "type": "Bouquet",
       "description": "A beautiful bouquet of fresh roses, perfect for any occasion.",

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import EditForm from "../../../components/admin/editForm/EditForm";
+import { Helmet } from "react-helmet-async";
 
 function Edit() {
   useEffect(() => {
@@ -8,6 +9,10 @@ function Edit() {
 
   return (
     <div>
+      <Helmet>
+        <title>Admin | Edit</title>
+        <meta name="description" content="Edit product" />
+      </Helmet>
       <EditForm />
     </div>
   );
